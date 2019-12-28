@@ -1,0 +1,10 @@
+/***************************************************
+ *  to avoid cors policy 			   *
+ *  insert the following 2 lines		   *
+ *  in cmd and when done delete Chrome dev session *
+ *  folder from C:\				   *
+ ***************************************************/
+
+
+cd C:\Program Files (x86)\Google\Chrome\Application
+chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security
